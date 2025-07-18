@@ -12,7 +12,7 @@ class DiarizationPipeline:
     def __init__(
         self,
         local_path=None,
-        model_name="pyannote/speaker-diarization-3.1",
+        model_name=None,
         use_auth_token=None,
         device: Optional[Union[str, torch.device]] = "cpu",
     ):
